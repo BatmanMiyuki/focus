@@ -1,0 +1,9 @@
+node_modules/
+.DS_Store
+*.log
+.gh_token
+uploads/
+.npm/
+.cache/
+.arena/
+__pycache__/

@@ -1,0 +1,21 @@
+{
+  "expo": {
+    "name": "Focus",
+    "slug": "focus-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "scheme": "focus",
+    "userInterfaceStyle": "dark",
+    "splash": { "image": "./assets/splash-icon.png", "resizeMode": "contain", "backgroundColor": "#0B0D10" },
+    "ios": { "supportsTablet": true, "bundleIdentifier": "com.focus.app" },
+    "android": {
+      "package": "com.focus.app",
+      "adaptiveIcon": { "foregroundImage": "./assets/android-icon-foreground.png", "backgroundColor": "#0B0D10" }
+    },
+    "plugins": [
+      ["expo-notifications", { "icon": "./assets/notification-icon.png", "color": "#FF7A00" }]
+    ],
+    "extra": { "eas": { "projectId": "REMPLACE-MOI" } }
+  }
+}
