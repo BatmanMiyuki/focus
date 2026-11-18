@@ -1046,8 +1046,7 @@
   $('demoBtn').addEventListener('click', seedDemo);
   $('resetBtn').addEventListener('click', () => {
     state = blank();
-    localStorage.removeItem(LS_KEY);
-    localStorage.removeItem(LEGACY);
+    try{ localStorage.removeItem(LS_KEY); localStorage.removeItem(LEGACY); }catch(e){}
     lastAllDone = false;
     renderAll();
     status('Toutes les données ont été effacées.', 'warn');
